@@ -3,8 +3,7 @@
 This repository illustrates bugs in FilamentPHP which have been submitted to the FilamentPHP team.
 
 ## Current submissions
-- None.
-
+- Action button icon does not apply specified `color()` when `outlined()` method is used.
 
 ## Past submissions
 ### v3.1.21

@@ -14,6 +14,12 @@ class ListBooks extends ListRecords
     {
         return [
             Actions\CreateAction::make(),
+
+            Actions\Action::make('import_users')
+                ->label('Import from CSV')
+                ->icon('heroicon-o-table-cells')
+                //->outlined()
+                ->color('primary'),
         ];
     }
 }
