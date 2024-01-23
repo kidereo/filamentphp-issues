@@ -3,9 +3,11 @@
 This repository illustrates bugs in FilamentPHP which have been submitted to the FilamentPHP team.
 
 ## Current submissions
-- Action button icon does not apply specified `color()` when `outlined()` method is used.
 
 ## Past submissions
+### v3.2.10
+- CLOSED: [Action button icon does not apply specified `color()` when `outlined()` method is used](https://github.com/filamentphp/filament/issues/10813).
+
 ### v3.1.21
 - CLOSED: [The `wrap()` column method no longer functions](https://github.com/filamentphp/filament/issues/10312). 
 - CLOSED: [The `default()` and `listWithLineBreaks()` column methods no longer work together. They do work individually but produce `Undefined variable $listLimit` error when both enabled on the same column](https://github.com/filamentphp/filament/issues/10314).
